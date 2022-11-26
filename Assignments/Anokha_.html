@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+	<link rel="icon" href="https://www.vlab.co.in/Inst_logo/amrita-vishwa-vidyapeetham.png">
+</head>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+</style>
+<body style=background-image:url('https://wallpapertag.com/wallpaper/full/1/a/1/350829-widescreen-website-background-1920x1080-windows-xp.jpg');
+</body>
+<center style="font-size:60px">
+<h4><center> ANOKHA Fest 2023</h4>
+</center>
+<br><br>
+<body onload="document.registration.userid.focus();">
+<h3>Registration Form</h3>
+Use tab keys to move from one input field to the next.
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="userid">User id:</label></li>
+<input type="text" name="userid" size="12" />
+<li><label for="passid">Password:</label></li>
+<input type="password" name="passid" size="12" />
+<li><label for="username">Name:</label></li>
+<input type="text" name="username" size="50" />
+<li><label for="address">Address:</label></li>
+<input type="text" name="address" size="50" />
+<li><label for="country">Country:</label></li>
+<select name="country">
+<option selected="" value="Default">(Please select a country)</option>
+<option value="AF">Australia</option>
+<option value="AL">Canada</option>
+<option value="DZ">India</option>
+<option value="AS">Russia</option>
+<option value="AD">USA</option>
+</select>
+<li><label for="zip">ZIP Code:</label></li>
+<input type="text" name="zip" />
+<li><label for="email">Email:</label></li>
+<input type="text" name="email" size="50" />
+<li><label id="gender">Sex:</label></li>
+<input type="radio" name="msex" value="Male" /><span>Male</span>
+<input type="radio" name="fsex" value="Female" /><span>Female</span>
+<li><label>Language:</label></li>
+<input type="checkbox" name="en" value="en" checked /><span>English</span>
+<input type="checkbox" name="nonen" value="noen" /><span>Non English</span>
+<li><label for="desc">About:</label></li>
+<textarea name="desc" id="desc"></textarea>
+<li><input type="submit" name="submit" value="Submit" /></li>
+<br>
+<br>
+<form action="/action_page.php">
+            <label for="cars">STREAM: </label>
+            <select name="cars" id="cars">
+              <option value="volvo">CSE</option>
+              <option value="saab">CSE-AI</option>
+              <option value="opel">CSE-CYS</option>
+              <option value="audi">ELC</option>
+              <option value="volvo">EEE</option>
+              <option value="volvo">MEL</option>
+              <option value="volvo">CCE</option>
+            </select>
+            <br><br>
+      </div>
+      <p>What is your year of Study?</p>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">1st YEAR</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">2nd YEAR</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">3rd YEAR</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">4th YEAR</label><br><br>
+      <p>Please select the department you would like to join under?:</p>
+      <br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">Research Department</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Public Speaking</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Photography & Videography</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">Technical Department</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">Event Management</label>
+      <br>
+      <label for="birthday">Choose Event Date:</label>
+      <br>
+  <p><label for="w3review">About You</label></p>
+  <textarea id="w3review" name="w3review" rows="4" cols="50">Tell more about yourself.</textarea>
+  <p>Choose File button to upload a file:</p>
+  <form action="/action_page.php">
+    <input type="file" id="myFile" name="filename"><br>
+  <div class="input-box button">
+        <br>
+        <input type="Submit" value="Register Now">
+      </div>
+      <br>
+     
+    </form>
+</ul>
+</form>
+</body>
+</html>
